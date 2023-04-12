@@ -37,7 +37,6 @@ public class DeleteRecords {
     public void problem1(){
 
         String sql = "DELETE FROM site_user WHERE firstname = 'Steve'";
-
         try {
             Connection connection = ConnectionUtil.getConnection();
             Statement s = connection.createStatement();
